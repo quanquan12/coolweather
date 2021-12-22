@@ -1,10 +1,8 @@
 package com.example.mycoolweather.db;
 
-import org.litepal.exceptions.DataSupportException;
+import org.litepal.crud.LitePalSupport;
 
-import java.io.Serializable;
-
-public class Province implements Serializable {
+public class Province extends LitePalSupport {
     private int id;
     private String provinceName;
     private int provinceCode;

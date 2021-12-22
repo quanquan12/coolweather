@@ -1,8 +1,8 @@
 package com.example.mycoolweather.db;
 
-import java.io.Serializable;
+import org.litepal.crud.LitePalSupport;
 
-public class City implements Serializable {
+public class City extends LitePalSupport {
 
     private int id;
     private String cityName;
