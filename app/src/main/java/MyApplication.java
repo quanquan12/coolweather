@@ -3,4 +3,6 @@
  * Email:526133298@qq.com
  */
 public class MyApplication {
+    private int a = 1;
+
 }
