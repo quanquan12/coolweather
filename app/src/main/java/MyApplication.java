@@ -5,4 +5,5 @@
 public class MyApplication {
     private int a = 1;
 
+    private int c = 3;
 }
